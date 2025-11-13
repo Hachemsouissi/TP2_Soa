@@ -15,21 +15,19 @@
     </properties>
 
     <dependencies>
-        <!-- ✅ Jakarta XML Web Services API -->
+
         <dependency>
             <groupId>jakarta.xml.ws</groupId>
             <artifactId>jakarta.xml.ws-api</artifactId>
             <version>4.0.2</version>
         </dependency>
 
-        <!-- ✅ Jakarta Web Services Runtime (GlassFish Metro 4.x) -->
         <dependency>
             <groupId>org.glassfish.metro</groupId>
             <artifactId>webservices-rt</artifactId>
             <version>4.0.2</version>
         </dependency>
 
-        <!-- ✅ Jakarta JWS API (for @WebService, @WebMethod, etc.) -->
         <dependency>
             <groupId>jakarta.jws</groupId>
             <artifactId>jakarta.jws-api</artifactId>
